@@ -2,9 +2,8 @@ package did_test
 
 import (
 	"fmt"
+	"github.com/nuts-foundation/did-ockam"
 	"log"
-
-	"github.com/ockam-network/did"
 )
 
 func ExampleParse() {

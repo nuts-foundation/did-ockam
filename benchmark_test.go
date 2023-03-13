@@ -1,10 +1,9 @@
 package did_test
 
 import (
+	"github.com/nuts-foundation/did-ockam"
 	"net/url"
 	"testing"
-
-	"github.com/ockam-network/did"
 )
 
 var parsed *did.DID
