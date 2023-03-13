@@ -1,18 +1,17 @@
 # did
 
-[![Build Status](https://dev.azure.com/ockam-network/ockam-network-open-source/_apis/build/status/ockam-network.did)](https://dev.azure.com/ockam-network/ockam-network-open-source/_build/latest?definitionId=7)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ockam-network/did)](https://goreportcard.com/report/github.com/ockam-network/did)
-[![cover.run](https://cover.run/go/github.com/ockam-network/did.svg?tag=golang-1.10)](https://cover.run/go?tag=golang-1.10&repo=github.com%2Fockam-network%2Fdid)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/ockam-network/did)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/nuts-foundation/did-ockam)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
 
 `did` is a Go package that provides tools to work with
 [Decentralized Identifiers (DIDs)](https://w3c-ccg.github.io/did-spec).
 
+This repository is a fork of [ockam-network/did](https://github.com/build-trust/did).
+
 ## Install
 
 ```
-go get github.com/ockam-network/did
+go get github.com/nuts-foundation/did-ockam
 ```
 
 ## Example
@@ -24,7 +23,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ockam-network/did"
+	"github.com/nuts-foundation/did-ockam"
 )
 
 func main() {
@@ -107,7 +106,7 @@ fmt.Println(d.String())
 // Output: did:example:q7ckgxeq1lxmra0r#keys-1
 ```
 
-For more documentation and examples, please see [godoc](https://godoc.org/github.com/ockam-network/did).
+For more documentation and examples, please see [godoc](https://godoc.org/github.com/nuts-foundation/did-ockam).
 
 ## Build
 
